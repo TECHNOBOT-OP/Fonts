@@ -6,3 +6,5 @@ app = Flask(__name__)
 def majn():
     man = url_for('static', filename='font.css')
     return man
+
+app.run(host='0.0.0.0')
